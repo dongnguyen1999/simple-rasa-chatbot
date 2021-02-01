@@ -1,0 +1,41 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - ask_about_dong
+
+responses:
+  utter_greet:
+  - text: "Chào bạn, tôi có thể giúp gì hay không?"
+  - text: "Chào, bạn cần gì?"
+
+  utter_did_that_help:
+  - text: "ôi có thể giúp gì cho ?"
+
+  utter_happy_after_help:
+  - text: "You are welcome!"
+  - text: "Không có chi!"
+  - text: "Cám ơn đã sử dụng dịch vụ"
+
+  utter_goodbye:
+  - text: "Good bye"
+  - text: "Bye"
+  - text: "Tạm biệt"
+  - text: "Bái bai"
+
+  utter_iamabot:
+  - text: "Đúng rồi, tôi là chatbot thi trắc nghiệm"
+
+  utter_about_dong:
+  - text: "Đông là sinh viên Khoa học máy tính K43, CTU"
+
+  utter_default:
+  - text: "Tôi chưa hiểu bạn muốn hỏi gì? Vui lòng nhập lại tin nhắn"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

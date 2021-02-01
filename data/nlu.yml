@@ -1,0 +1,77 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - chào bạn
+    - chào bot
+    - xin chào
+    - ê
+    - hey
+    - hi
+    - hello
+    - chào
+    - mình có vài câu hỏi
+    - có ai giúp mình không
+    - bạn ơi
+    - anh ơi
+    - chị ơi
+    - cháu ơi
+    - có ai ở đây không?
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - bye bye
+    - pp
+    - bb
+    - good night
+    - good bye
+    - bái bai
+    - cút
+    - tạm biệt
+    - chào tamj biệt
+    - đi nghe
+    - bai em
+    - bye
+
+- intent: affirm
+  examples: |
+    - ừ
+    - đúng rồi
+    - phải
+    - ukm
+    - yes
+    - đúng
+    - phải rồi
+    - nó đó
+
+- intent: deny
+  examples: |
+    - không phải
+    - no
+    - không
+    - không hẳn vậy
+    - không đúng
+
+- intent: thank
+  examples: |
+    - cám ơn nhé
+    - tks
+    - thanks
+    - thanks you
+    - cám ơn
+    - cám ơn bạn
+
+- intent: bot_challenge
+  examples: |
+    - bạn có phải người không?
+    - bạn có phải bot không?
+
+- intent: ask_about_dong
+  examples: |
+    - đông là ai
+    - bạn có biết đông không
+    - cho tôi biết thêm về đông
+    - bạn có quen đông không
