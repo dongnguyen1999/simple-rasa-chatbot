@@ -75,3 +75,19 @@ nlu:
     - bạn có biết đông không
     - cho tôi biết thêm về đông
     - bạn có quen đông không
+
+- intent: ask_about_nhuan
+  examples: |
+    - nhuận là ai
+    - bạn có biết nhuận không
+    - cho tôi biết thêm về nhuận
+    - bạn có quen nhuận không
+    - bạn biết anh nhuận không
+
+- intent: ask_about_quyen
+  examples: |
+    - quyên là ai
+    - bạn có biết quyên không
+    - cho tôi biết thêm về quyên
+    - bạn có quen quyên không
+    - bạn biết anh quyên không

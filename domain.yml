@@ -7,6 +7,9 @@ intents:
   - deny
   - bot_challenge
   - ask_about_dong
+  - ask_about_nhuan
+  - ask_about_quyen
+  - thank
 
 responses:
   utter_greet:
@@ -32,6 +35,12 @@ responses:
 
   utter_about_dong:
   - text: "Đông là sinh viên Khoa học máy tính K43, CTU"
+
+  utter_about_nhuan:
+  - text: "Nhuận là sinh viên Hệ thống thông tin K42, CTU"
+
+  utter_about_quyen:
+  - text: "Quyên là cựu sinh viên Đại học Cần Thơ"
 
   utter_default:
   - text: "Tôi chưa hiểu bạn muốn hỏi gì? Vui lòng nhập lại tin nhắn"

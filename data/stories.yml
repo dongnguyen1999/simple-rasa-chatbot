@@ -2,7 +2,7 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: about dong
   steps:
   - intent: greet
   - action: utter_greet
@@ -10,6 +10,41 @@ stories:
   - action: utter_about_dong
   - intent: goodbye
   - action: utter_goodbye
+
+- story: about nhuan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_nhuan
+  - action: utter_about_nhuan
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: about quyen
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_quyen
+  - action: utter_about_quyen
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: greet
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: thank
+  steps:
+  - intent: thank
+  - action: utter_happy_after_help
+
+
 
 #
 #- story: sad path 1
